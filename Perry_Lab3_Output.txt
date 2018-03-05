@@ -1,0 +1,77 @@
+An example where root is 0, and trees are numbered by depth and a 1 for left children or 2 for right children: 
+PreOrder traversal: 
+0
+11
+21
+31
+32
+22
+31
+32
+12
+21
+31
+32
+22
+31
+32
+InOrder traversal: 
+31
+21
+32
+11
+31
+22
+32
+0
+31
+21
+32
+12
+31
+22
+32
+PostOrder traversal: 
+31
+32
+21
+31
+32
+22
+11
+31
+32
+21
+31
+32
+22
+12
+0
+
+A more simple version, with the tree: 
+		0
+	1		2
+3				4
+	5
+(Where 1 and 2 are root's children, 3 is the child of 1, 5 is the right child of 3, and 4 is the child of 2):
+PreOrder traversal: 
+0
+1
+3
+5
+2
+4
+InOrder traversal: 
+3
+5
+1
+0
+2
+4
+PostOrder traversal: 
+5
+3
+1
+4
+2
+0
